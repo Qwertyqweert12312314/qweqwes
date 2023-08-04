@@ -1,0 +1,24 @@
+.block {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 20px;
+    position: absolute;
+    border-radius: 20px;
+    top: 330px;
+    left: 630px;
+    box-shadow: 5px 5px #dfdcdc;
+}
+
+.block:hover {
+    left: 632px;
+    background-color: green;
+    box-shadow: none;
+
+}
+
+.block:active {
+    left: 633px;
+    padding: 19px;
+    background-color: green;
+}
